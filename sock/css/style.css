@@ -1625,6 +1625,12 @@ input[type="radio"] .styled:checked+label::after {
      background: #ffffff;
      color: #000;
 }
+
+
+.row a{
+     width: 30%;
+}
+
 .img-box figure {
      margin: 0;
 }
