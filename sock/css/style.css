@@ -614,7 +614,6 @@ button:hover .button-text {
      height: 90%;
      margin-bottom: 10%;
      border-radius: 5%;
-
 }
 
 .games.title{
@@ -657,220 +656,162 @@ span.faixa_etaria{
 }
 /* games section css */
 
-/* Team members section css */
-.global_container_team{
-     height: 85%;
-     margin-top: 5%;
-     margin-bottom: 10%;
+
+
+img.zoom {
+     width: 100%;
+     object-fit: cover;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
 }
 
-.row.align-items-center.pro{
-     padding-bottom: 5%;
+.transition {
+     -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+     -o-transform: scale(1.2);
+     transform: scale(1.2);
 }
 
-.col-xl-4.col-lg-4.col-md-4.col-sm-12{
-     padding-right: 15px;
-}
-.profile.card{
-     height: 100%;
-     padding: 0;
-     border: none;
-     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-     border-radius: 10%;
-}
 
-.profile.card.ricardo{
-     background-color: #DC3545;
-}
 
-.profile.card.diogo{
-     background-color: #6C757D;
+textarea {
+     margin-bottom: 30px;
+     padding: 12px 4px 11px 11px;
+     width: 100%;
 }
-
-.profile.card.rafa{
-     background-color: #FFC107;
-}
-
-.profile.card.cunha{
-     background-color: #8EA5D7;
-}
-
-.profile.card.amaral{
-     background-color: #28A745;
-}
-
-.profile.card.pedro{
-     background-color: #007BFF;
-}
-
-.body{
-     background-color: #fff;
-     height: 50%;
-     border-top-left-radius: 10%;
-     border-top-right-radius: 10%;
-     padding-bottom: 10%;
-}
-
-.personalphoto{
-     width: 60%;
-     margin-left: 20%;
-     margin-right: 20%;
-
-     height: 50%;
-     margin-top: 5%;
-     margin-bottom: 10%;
-}
-
-img.photoperson{
-     display: block;
-     width: 70%;
-     box-shadow: #6C757D 0px 5px 15px;
-     border-radius: 50%;
-     margin-left: auto;
-     margin-right: auto;
-}
-
-/*
-img.photoperson.ricardo{
-     box-shadow: #DC3545 0px 5px 15px;
-}
-img.photoperson.diogo{
-     box-shadow: #6C757D 0px 5px 15px;
-}
-img.photoperson.rafa{
-     box-shadow: #FFC107 0px 5px 15px;
-}
-img.photoperson.cunha{
-     box-shadow: #8EA5D7 0px 5px 15px;
-}
-img.photoperson.amaral{
-     box-shadow: #28A745 0px 5px 15px;
-}
-img.photoperson.pedro{
-     box-shadow: #007BFF 0px 5px 15px;
-}
-*/
-
-.description{
+.footer {
+     background-color: #212120;
      text-align: center;
 }
 
-.media{
-     width: 20%;
-     height: auto;
-     margin-left: 40%;
-     margin-right: 40%;
+.btn-primary.focus,
+.btn-primary:focus {
+     box-shadow: inherit;
 }
 
-.circle{
-     margin-left: 5%;
-     margin-right: 5%;
-     width: 40%;
-     height: auto;
-     border-radius: 70%;
-     
-}
 
-.circle.ricardo{
-     background-color: #DC3545;
-}
-.circle.diogo{
-     background-color: #6C757D;
-}
-.circle.rafa{
-     background-color: #FFC107;
-}
-.circle.cunha{
-     background-color: #8EA5D7;
-}
-.circle.amaral{
-     background-color: #28A745;
-}
-.circle.pedro{
-     background-color: #007BFF;
-}
-
-section.cool_waves{
+.section {
+     float: left;
      width: 100%;
-     height: 20%;
-     position: relative;
-     overflow: hidden;
 }
 
-section .wave{
-     bottom: 0;
-     left: 0;
-     width: 100%;
-     height: 75px;
-     background-image: url("../images/wave.png");
-     background-size: 600px 75px;
-     transform: rotate(180deg);
-}
-
-section .wave.wave1{
-     animation: animate 10s linear infinite;
-     z-index: 1000;
-     opacity: 1;
-     animation-delay: 0s;
-     bottom: 0;
-}
-
-@keyframes animate{
-     0%
-     {
-          background-position-x: 0;
-     }
-     100%
-     {
-          background-position-x: 600px;
-     } 
-}
-.wave_section{
-     height: 30%;
-     margin-bottom: 20%;
-}
-
-/* Team members section css */
-
-
-}
-
-.games.title{
-     height: 10%;
-     margin-bottom: 7%;
-     margin-left: 5%;
-}
-
-.games.description{
-     height: 72%;
-     margin: 0 6% 2% 6%;
-}
-
-.games.faixa{
-     height: 7%;
-     margin-bottom: 2%;
-     margin-left:5%;
-}
-
-.info-title.text-white{
-     font-size: 1.25rem;
-     font-weight: 700;
-}
-
-span.description{
-     color: white;
-     font-weight: 300;
-     line-height: 1.6;
-     font-size: 14px;
-}
-
-span.faixa_etaria{
-     color: white;
-     font-weight: 300;
-     line-height: 1.7;
-}
-
-.faixa_title{
+.sporrt_text{ 
+     width: 100%; 
+     float: left; 
+     color: #fffcf4;
+     margin-top: 80px;
+     font-size: 30px;
      font-weight: bold;
+     line-height: 30px;
 }
-/* games section css */
+
+.lorem_text{ 
+     width: 100%;
+     float: left; 
+     font-size: 16px; 
+     color: #fffcf4;
+     margin: 0px; 
+}
+
+.btn_main{ 
+     width: 100%; 
+     float: left;
+     margin-top: 58px;
+}
+
+
+
+
+.contact_us{
+     width: 100%;
+     float: left;
+     padding: 0px;
+}
+
+
+
+
+.Address {
+    width: 100%;
+    float: left;
+    background-color: #081b30;
+    height: auto;
+    padding: 83px 0 0 0;
+}
+
+.address_text{
+     width: 100%;
+     text-align: center;
+     margin: 0px;
+     border-bottom: 2px solid #136af8;
+     color: #fff;
+}
+.main{
+    width: 9%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+ }
+
+
+
+ .active{ color: #000; }
+
+.footer{
+     width: 100%;
+     float: left;
+     background-color: #136af8;
+     height: auto; 
+     padding: 0px;
+}
+
+
+
+
+button.btn.btn-primary,button.btn.btn-primary:hover,button.btn.btn-primary:focus {
+    background: #136af8;
+    padding: 10 40px;
+}
+
+
+#main_slider .carousel-control-prev, #main_slider .carousel-control-next {
+    width: 65px;
+    height: 65px;
+    background: #fff;
+    opacity: 1;
+    font-size: 30px;
+    color: #091e30;
+    border-radius: 100%;
+}
+
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 50px;
+    top: 40%;
+}
+
+#main_slider a.carousel-control-next {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+}
+
+#main_slider .carousel-control-prev:hover,
+#main_slider .carousel-control-next:hover,
+#main_slider .carousel-control-prev:focus,
+#main_slider .carousel-control-next:focus {
+     background: #091e30;
+     color: #fff;
+}
+
+.product {padding-top: 90px;}
+.product .titlepage h2 {color: #136af8;}
+.black {color: #000;}
+.contact_us .titlepage h2 {text-align: center;}
+.footer p {color: #fff;}
+.footer p a {color: #fff;}
+.footer p a:hover {color: #fff;}
+.main-menu ul > li a {padding-top: 5px;}
+
