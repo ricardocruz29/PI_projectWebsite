@@ -346,8 +346,6 @@ nav.main-menu {
 
 .banner-main {
      position: relative;
-     
-     /*background-image: linear-gradient(to bottom right, #070657 , #87CEEB ); */
      background-image: linear-gradient(to bottom, #3761bb , #fff );
      background-size: 100% 100%;
 }
@@ -888,7 +886,7 @@ img.photoperson{
      margin-right: auto;
 }
 
-/*
+
 img.photoperson.ricardo{
      box-shadow: #DC3545 0px 5px 15px;
 }
@@ -907,7 +905,6 @@ img.photoperson.amaral{
 img.photoperson.pedro{
      box-shadow: #007BFF 0px 5px 15px;
 }
-*/
 
 
 .media{
