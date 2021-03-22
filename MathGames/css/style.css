@@ -253,8 +253,6 @@ nav.main-menu {
      text-transform: uppercase;
 }
 
-
-}
 .main-menu ul li:last-child a {
      padding-right: 0;
 }
@@ -326,7 +324,7 @@ nav.main-menu {
 .main-menu ul>li a:hover {
      color: #fff;
 }
-.main-menu ul>li:nth-child (6) {
+.main-menu ul>li:nth-child(6) {
      padding-right: 0px;
 }
 
@@ -858,7 +856,11 @@ button.btn.btn-primary,button.btn.btn-primary:hover,button.btn.btn-primary:focus
 .profile.card.pedro{
      background-color: #007BFF;
 }
-
+/* Professor */
+.profile.card.professor{
+     background-color: #081B30;
+}
+/* Professor */
 .body{
      background-color: #fff;
      height: 50%;
@@ -905,7 +907,11 @@ img.photoperson.amaral{
 img.photoperson.pedro{
      box-shadow: #007BFF 0px 5px 15px;
 }
-
+/* Professor */
+img.photoperson.professor{
+     box-shadow: #081B30 0px 5px 15px;
+}
+/* Professor */
 
 .media{
      width: 20%;
@@ -941,6 +947,12 @@ img.photoperson.pedro{
 .circle.pedro{
      background-color: #007BFF;
 }
+
+/* Professor */
+.circle.professor{
+     background-color: #081B30;
+}
+/* Professor */
 
 section.cool_waves{
      width: 100%;
