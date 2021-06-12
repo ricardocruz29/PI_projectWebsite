@@ -189,22 +189,20 @@ button {
      background-color: rgba(0, 0, 0, 0);
      background-repeat: repeat;
      background-size: auto;
-     position: absolute;
      z-index: 999;
      width: 100%;
-     left: 0;
-     top: 0;
      padding: 0;
      padding-top: 0px;
      background-size: 100% 100%;
      background-repeat: no-repeat;
-     min-height: 110px;
-     padding-top: 45px
+     margin: 2em 0;
+     min-width: 350px;
 }
 
 .logo {
      float: left;
      position: relative;
+     min-width: 100px;
 }
 
 nav.main-menu {
@@ -218,9 +216,6 @@ nav.main-menu {
      margin-right: 10%;
 }
 
-.menu-area-main li{
-     width: 20%;
-}
 
 .menu-area-main li a:hover{
      transform: scale(1.2);
@@ -331,9 +326,6 @@ nav.main-menu {
 
 
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
-.marginii {
-     margin: 154px 0px 100px 0px;
-}
 .carousel-indicators li {
      display: none;
 }
@@ -351,25 +343,25 @@ nav.main-menu {
 .banner-main.reverse{
      background-image: linear-gradient(to top, #3761bb , #fff );
 }
-.banner-main .carousel-caption {
+.banner-main .title-description {
      text-align: left;
      left: 0;
      top: 5%;
      position: relative;
 }
-.banner-main .carousel-caption h1 {
-     font-size: 65px;
+.banner-main .title-description h1 {
+     font-size: 4rem;
      line-height: 74px;
      font-weight: bold;
      color: #EAEDC7;
 }
-.banner-main .carousel-caption p {
+.banner-main .title-description p {
      color: #ffffff;
      padding: 9px 0px;
      margin-bottom: 50px;
 }
 
-.banner-main .carousel-caption.img{
+.banner-main .title-description.img{
      text-align: center;
 }
 
@@ -444,7 +436,6 @@ button.learn-more .button-text {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: White;
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -510,6 +501,7 @@ button:hover .button-text {
 .titlepage{
      height: 100%;
      width: 100%;
+     margin-bottom: 3em;
 }
 
 .titlepage h2 {
@@ -599,17 +591,12 @@ button:hover .button-text {
      padding-top: 10px;
 }
 
-.zoom:hover {
-     -ms-transform: scale(1.2); /* IE 9 */
-     -webkit-transform: scale(1.2); /* Safari 3-8 */
-     transform: scale(1.2); 
-     }
-
 .zoom {
      width: 100%;
-     height: 90%;
-     margin-bottom: 10%;
      border-radius: 5%;
+     position: relative;
+     min-height: 300px;
+     margin-bottom: 1em;
 }
 
 .games.title{
@@ -619,14 +606,17 @@ button:hover .button-text {
 }
 
 .games.description{
-     height: 72%;
-     margin: 0 6% 2% 6%;
+     margin: 0 6% 15px 6%;
+     height: auto;
 }
 
 .games.faixa{
      height: 7%;
      margin-bottom: 2%;
      margin-left:5%;
+     position: absolute;
+     bottom: 0;
+     left: 0;
 }
 
 .info-title.text-white{
@@ -662,14 +652,6 @@ img.zoom {
      -o-transition: all .3s ease-in-out;
      -ms-transition: all .3s ease-in-out;
 }
-
-.transition {
-     -webkit-transform: scale(1.2);
-     -moz-transform: scale(1.2);
-     -o-transform: scale(1.2);
-     transform: scale(1.2);
-}
-
 
 
 textarea {
@@ -815,7 +797,6 @@ button.btn.btn-primary,button.btn.btn-primary:hover,button.btn.btn-primary:focus
 .global_container_team{
      height: 85%;
      margin-top: 5%;
-     margin-bottom: 10%;
 }
 
 .row.align-items-center.pro{

@@ -34,50 +34,52 @@
 
 
       <!-- HEADER -->
-      <header class="section">
+      
          <!-- header inner -->
-         <div class="header">
-            <div class="container">
-               <div class="row">
-                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="#"></a> </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                     <nav class="main-menu">
-                        <ul class="menu-area-main">
-                           <li> <a href="#">Home</a> </li>
-                           <li> <a href="#games">Jogos</a> </li>
-                           <li><a href="#team">Equipa</a></li>
-                           <li><a href="#contact">Contactos</a></li>
-                        </ul>
-                     </nav>
-                  </div>
-               </div>
-            </div>
-         </div>
+         
          <!-- end header inner -->
-      </header>
+      
       <!-- end header -->
 
 
       <section >
          
          <div id="main_slider" class="section banner-main">
-            
+            <div class="header">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                           <div class="center-desk">
+                              <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="#"></a> </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <nav class="main-menu">
+                           <ul class="menu-area-main">
+                              <li> <a href="#">Home</a> </li>
+                              <li> <a href="#games">Jogos</a> </li>
+                              <li><a href="#team">Equipa</a></li>
+                              <li><a href="./reunions.html">Reuniões</a></li>
+                              <li><a href="#documentation">Documentação</a></li>
+                              <li><a href="#contact">Contactos</a></li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
             <div class="container ">
-               <div class="row marginii">
+               <div class="row">
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                     <div class="carousel-caption ">
+                     <div class="title-description">
                         <h1>Bem vindo ao <strong class="color">MathGames</strong></h1>
                         <p>Sejam muito bem-vindos à plataforma MathGames. Aqui podem encontrar vários jogos matemáticos para jogarem e se divertirem. Podem jogar competitivamente, criar torneios, jogar com amigos entre outras coisas. Esperemos que se divirtam!</p>
                      </div>
                   </div>
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                     <div class="carousel-caption img">
+                     <div class="image_area img">
                         <figure><img src="images/mathGames.png" alt="img"/></figure>
                      </div>
                   </div>
@@ -530,7 +532,7 @@
             <div class="carousel-inner">
                <div class="carousel-item active" style="height: 400px; margin-bottom: 50px; ">
                   <div class="container">
-                     <div class="row marginii">
+                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                            <div class="carousel-sporrt_text ">
                               <h1 class="sporrt_text" style="margin: 0 0 20px">Universidade de Aveiro</h1>
@@ -550,7 +552,7 @@
                </div>
                <div class="carousel-item" style="height: 400px; margin-bottom: 50px;">
                   <div class="container">
-                     <div class="row marginii">
+                     <div class="row ">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                            <div class="carousel-sporrt_text ">
                               <h1 class="sporrt_text" style="margin: 0 0 20px">Fábrica Centro Ciência Viva Aveiro</h1>
@@ -573,8 +575,6 @@
 
 
       <!-- end about -->
-      
-
 
       <!-- start Contact Us-->
 
@@ -588,7 +588,7 @@
                </div>
             </div>
          </div>
-         <div class="row" style="margin-top: 50px;">
+         <div class="row">
             <div class="col-lg-1">
 
             </div>
@@ -658,22 +658,5 @@
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
       <!-- cool button -->
       <script src="js/cool_buttons.js"></script>
-      <script>
-         $(document).ready(function(){
-         $(".fancybox").fancybox({
-         openEffect: "none",
-         closeEffect: "none"
-         });
-         
-         $(".zoom").hover(function(){
-         
-         $(this).addClass('transition');
-         }, function(){
-         
-         $(this).removeClass('transition');
-         });
-         });
-         
-      </script> 
    </body>
 </html>
