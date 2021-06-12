@@ -209,6 +209,8 @@ nav.main-menu {
     border-radius: 1em;
     background-color: #ffffff;
     min-height: 515px;
+    min-width: 250px;
+    margin: 2em 0;
 }
 
 .reunion-section .title{
