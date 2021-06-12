@@ -195,7 +195,7 @@ nav.main-menu {
 }
 
 .documentation .card{
-    margin: 2em 0;
+    margin: 3em 0;
     background: #fff;
     position: relative;
     display: flex;
@@ -235,17 +235,18 @@ nav.main-menu {
 }
 
 .documentation .card h3{
+    font-size: 1.4rem;
+    width: 100%;
     z-index: 3;
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 0;
     color: #fff;
-    opacity: 0;
-    transform: translateY(100px);
+    transform: translateY(-170px);
     transition: 0.5s all
 }
 
 .documentation .card:hover h3{
-    opacity: 1;
     transform: translateY(0px);
+    transform: translateX(50px);
 }
