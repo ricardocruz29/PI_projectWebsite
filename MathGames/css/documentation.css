@@ -1,0 +1,251 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(slick.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+* {
+     box-sizing: border-box !important;
+     transition: ease all 0.5s;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     color: #666666;
+     font-size: 14px;
+     font-family: poppins;
+     line-height: 1.80857;
+     font-weight: normal;
+     overflow-x: hidden;
+     background-color: #3761bb;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: repeat;
+    background-size: auto;
+    z-index: 999;
+    width: 100%;
+    padding: 0;
+    padding-top: 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 2em 0 0 0;
+    min-width: 350px;
+}
+
+.logo {
+    float: left;
+    position: relative;
+    min-width: 100px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav.main-menu {
+    width: 100%;     
+    margin-left: 0;
+}
+
+.menu-area-main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.menu-area-main li a:hover{
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out 0.1s;
+}
+
+
+.main-menu {
+    text-align: right;
+}
+
+.main-menu ul {
+    margin: 0;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.main-menu ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+.main-menu ul>li a {
+    line-height: 20px;
+    font-size: 16px;
+    display: block;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 22px 20px;
+    text-transform: uppercase;
+}
+
+.main-menu ul li:last-child a {
+    padding-right: 0;
+}
+
+.main-menu ul>li .sub-down li a {
+    color: #114c7d;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 300;
+    padding: 12px 5px;
+    position: relative;
+    border-bottom: solid #eee 1px;
+}
+.main-menu ul>li .sub-down li a::before {}
+.main-menu ul>li .sub-down li a:hover {
+    color: #111111;
+}
+.main-menu ul>li .sub-down li a:hover::before {}
+.main-menu ul li:first-child {
+    margin-left: 0;
+}
+.main-menu ul>li>ul {
+    opacity: 0;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 0 0 0;
+    transform-origin: 0 0 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 240px;
+    z-index: 999;
+    background: #fff;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.main-menu>ul>li:hover>ul {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    visibility: visible;
+    opacity: 1;
+}
+.main-menu ul>li>ul>li {
+    margin: 0px;
+    position: relative;
+    display: block;
+}
+.main-menu ul>li>ul>li:hover>ul {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    visibility: visible;
+    opacity: 1;
+    left: 100%;
+    top: 10px;
+    color: #ffffff;
+}
+.main-menu ul>li>ul>li>a {
+    background: none !important;
+}
+
+.main-menu ul>li {
+    position: inherit;
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-menu ul>li a:hover {
+    color: #fff;
+}
+.main-menu ul>li:nth-child(6) {
+    padding-right: 0px;
+}
+
+.hr-divider{
+    background-color: white;
+    margin-bottom: 2em;
+}
+
+.documentation .card{
+    margin: 2em 0;
+    background: #fff;
+    position: relative;
+    display: flex;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, .5);
+    transition: 0.5s ease-in-out;
+    border: none;
+}
+
+
+.documentation .card:hover{
+    transform: translateY(20px);
+    cursor: pointer;
+}
+
+.documentation .card::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(1, 69, 214, 0.5), rgb(150, 97, 235));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+
+.documentation .card:hover::before{
+    opacity: 1;
+}
+
+.documentation img{
+    height: 250px;
+    width: 100%;
+    min-width: 250px;
+}
+
+.documentation .card h3{
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 0.5s all
+}
+
+.documentation .card:hover h3{
+    opacity: 1;
+    transform: translateY(0px);
+}

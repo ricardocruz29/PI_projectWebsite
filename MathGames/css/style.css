@@ -324,7 +324,12 @@ nav.main-menu {
 }
 
 
+.hr-divider{
+     background-color: white;
+     margin-bottom: 2em;
+ }
 
+ 
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 .carousel-indicators li {
      display: none;
