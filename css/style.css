@@ -991,3 +991,20 @@ svg {
 
 
 /* Team members section css */
+
+.video {
+     justify-content: center;
+     align-items: center;
+}
+
+.demo_video {
+     margin: 0 auto;
+     width: 50vw;
+     min-width: 300px;
+}
+
+.demo_video iframe {
+     width: 100%;
+     height: 500px;
+}
+
