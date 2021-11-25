@@ -26,6 +26,8 @@ Advisors:
 
 ## Link to Project Website : https://ricardocruz29.github.io/PI_projectWebsite/
 
-## Link to MathGames source code : https://gitlab.com/Miglou/pi_mathgames
+## Link to MathGames source code(gitlab) : https://gitlab.com/Miglou/pi_mathgames
+
+## Link to MathGames source code(github) : https://github.com/pedromiglou/MathGames
 
 ## Link to promotional video: https://www.youtube.com/watch?v=nD3caXV_Myg
